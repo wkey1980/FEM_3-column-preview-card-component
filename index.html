@@ -10,8 +10,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
-
-
 	<link rel="stylesheet" href="./dist/css/style.css">
 
 	<title>Frontend Mentor | 3-column preview card component</title>
@@ -26,40 +24,88 @@
 			color: hsl(228, 45%, 44%);
 		}
 	</style>
-
 </head>
 
 <body>
 
-	<main>
-		<section class="sedans">
-			<img src="./src/images/icon-sedans.svg" alt="Sedans">
-			<h1>Sedans</h1>
-			<p>	Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city cor on your next road trip.</p>
-			<a href="#">Learn More</a>
-		</section>
+	<div class="wrapper">
+		<main class="card__container">
+			<section class="sedans">
+				<div class="card">
+					<div class="sedans__container">
+						<img src="./src/images/icon-sedans.svg" alt="Sedans">
+						<h1>Sedans</h1>
+						<p>	Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city cor on your next road trip.</p>
+						<button href="#">Learn More</button>
+					</div>
+				</div>
+			</section>
 
-		<section class="suvs">
-			<img src="./src/images/icon-suvs.svg" alt="SUVs">
-			<h1>SUVs</h1>
-			<p>	Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
-			<a href="#">Learn More</a>
-		</section>
+			<section class="suvs">
+				<div class="card">
+					<div class="suvs__container">
+						<img src="./src/images/icon-suvs.svg" alt="SUVs">
+						<h1>SUVs</h1>
+						<p>	Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</section>
 
-		<section class="luxury">
-			<img src="./src/images/icon-luxury.svg" alt="Luxury">
-			<h1>Luxury</h1>
-			<p>	Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-			<a href="#">Learn More</a>
-		</section>
-	</main>
+			<section class="luxury">
+				<div class="card">
+					<div class="luxury__container">
+						<img src="./src/images/icon-luxury.svg" alt="Luxury">
+						<h1>Luxury</h1>
+						<p>	Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+						<a href="#">Learn More</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				Coded by <a href="#">Will</a>.
+			</div>
+		</footer>
+	</div>
 
-	<footer>
-		<div class="attribution">
-			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-			Coded by <a href="#">Your Name Here</a>.
-		</div>
-	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- <main>
+
+			</main> -->
+
+			<!-- <footer>
+
+			</footer> -->
+
+
+
+
+
+
+
+
 
 
 
