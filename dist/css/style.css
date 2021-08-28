@@ -1,3 +1,84 @@
-* {
-  outline: 1px solid red;
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__container {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.sedans {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.luxury {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sedans {
+  background-color: #e38826;
+}
+
+.suvs {
+  background-color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+}
+
+.sedans__container,
+.suvs__container,
+.luxury__container {
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.attribution {
+  padding-top: 20px;
+}
+
+h1 {
+  color: #f2f2f2;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
 }
